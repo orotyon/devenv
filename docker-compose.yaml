@@ -1,0 +1,9 @@
+version: '3'
+services:
+  vim:
+    build: ./vim-docker
+    container_name: vim
+    tty: true
+    volumes:
+      - ./serverdata:/root/data
+

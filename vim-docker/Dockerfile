@@ -1,3 +1,3 @@
-from alpine:3.14
-RUN apk add vim bash curl git openjdk11 nodejs npm
+from alpine:latest
+RUN apk add vim bash curl git openjdk17 nodejs npm
 COPY conf/.bashrc /root/.bashrc

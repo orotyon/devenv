@@ -1,7 +1,7 @@
 # Development Environment by vim
 
 ## image
-[alpine](https://hub.docker.com/_/alpine)
+[alpine:latest](https://hub.docker.com/_/alpine)
 
 
 ## installed
@@ -12,10 +12,17 @@
 - git
 
 ### language
-- openjdk11
+- openjdk17
 - nodejs
 
 ## how to use
+```sh
+# build and run
 docker-compose up -d
 
+# dwon and remove
+docker-compose down --rmi all
+
+# attach container
 docker exec -it vim bash
+```

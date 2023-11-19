@@ -11,9 +11,11 @@
 - curl
 - git
 
-### java
+### language
 - openjdk11
+- nodejs
 
 ## how to use
 docker-compose up -d
+
 docker exec -it vim bash

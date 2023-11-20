@@ -14,6 +14,7 @@
 ### language
 - openjdk17
 - nodejs
+  [nodejs readme](docs/ts.md)
 
 ## how to use
 ```sh

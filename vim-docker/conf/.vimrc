@@ -11,3 +11,6 @@ Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 call plug#end()
+
+"key map
+nnoremap <Space> :LspDocumentFormat<CR>
